@@ -1,0 +1,41 @@
+{
+  "name": "paianjenul",
+  "version": "1.0.0",
+  "description": "CLI pentru paianjenul.ro: cauta firme romanesti, date ONRC, bilanturi si status TVA ANAF din terminal",
+  "bin": {
+    "paianjenul": "bin/paianjenul.js"
+  },
+  "main": "lib/client.js",
+  "files": [
+    "bin/",
+    "lib/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "romania",
+    "companies",
+    "onrc",
+    "anaf",
+    "cui",
+    "mcp",
+    "cli",
+    "paianjenul"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanueltns/paianjenul-cli.git"
+  },
+  "homepage": "https://www.paianjenul.ro/pro",
+  "bugs": {
+    "url": "https://github.com/emanueltns/paianjenul-cli/issues"
+  },
+  "author": "Freeapp SRL",
+  "license": "MIT"
+}
